@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/chi/workspace/es_projects/Proximity Module/App-IOIO0507/src/applications/IOIOSimpleApp/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/Users/chi/workspace/es_projects/Proximity Module/App-IOIO0507/src/applications/IOIOSimpleApp/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/Users/chi/workspace/es_projects/Proximity Module/Proximity_sensor_with_IOIO/src/applications/Proximity_sensor_IOIO/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/Users/chi/workspace/es_projects/Proximity Module/Proximity_sensor_with_IOIO/src/applications/Proximity_sensor_IOIO/src/main/res/layout/main.xml"
+    }
+]

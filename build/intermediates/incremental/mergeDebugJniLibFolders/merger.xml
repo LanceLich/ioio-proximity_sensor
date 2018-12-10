@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/chi/workspace/es_projects/Proximity Module/Proximity_sensor_with_IOIO/src/applications/Proximity_sensor_IOIO/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/chi/workspace/es_projects/Proximity Module/Proximity_sensor_with_IOIO/src/applications/Proximity_sensor_IOIO/src/debug/jniLibs"/></dataSet></merger>

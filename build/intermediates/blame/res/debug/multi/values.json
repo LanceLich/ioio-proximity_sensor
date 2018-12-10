@@ -1,0 +1,93 @@
+[
+    {
+        "outputFile": "/Users/chi/workspace/es_projects/Proximity Module/App-IOIO0507/src/applications/IOIOSimpleApp/build/intermediates/res/merged/debug/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 58,
+                    "endOffset": 109
+                },
+                "from": {
+                    "file": "/Users/chi/workspace/es_projects/Proximity Module/App-IOIO0507/src/applications/IOIOSimpleApp/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 108,
+                        "endColumn": 58,
+                        "endOffset": 162
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 114,
+                    "endColumn": 52,
+                    "endOffset": 162
+                },
+                "from": {
+                    "file": "/Users/chi/workspace/es_projects/Proximity Module/App-IOIO0507/src/applications/IOIOSimpleApp/src/main/res/values/strings.xml"
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/chi/workspace/es_projects/Proximity Module/Proximity_sensor_with_IOIO/src/applications/Proximity_sensor_IOIO/build/intermediates/res/merged/debug/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 59,
+                    "endOffset": 110
+                },
+                "from": {
+                    "file": "/Users/chi/workspace/es_projects/Proximity Module/Proximity_sensor_with_IOIO/src/applications/Proximity_sensor_IOIO/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 108,
+                        "endColumn": 59,
+                        "endOffset": 163
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 115,
+                    "endColumn": 69,
+                    "endOffset": 180
+                },
+                "from": {
+                    "file": "/Users/chi/workspace/es_projects/Proximity Module/Proximity_sensor_with_IOIO/src/applications/Proximity_sensor_IOIO/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 168,
+                        "endColumn": 69,
+                        "endOffset": 233
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 185,
+                    "endColumn": 52,
+                    "endOffset": 233
+                },
+                "from": {
+                    "file": "/Users/chi/workspace/es_projects/Proximity Module/Proximity_sensor_with_IOIO/src/applications/Proximity_sensor_IOIO/src/main/res/values/strings.xml"
+                }
+            }
+        ]
+    }
+]

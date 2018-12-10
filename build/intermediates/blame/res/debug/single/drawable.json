@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/chi/workspace/es_projects/Proximity Module/App-IOIO0507/src/applications/IOIOSimpleApp/build/intermediates/res/merged/debug/drawable/ioio_down.png",
+        "source": "/Users/chi/workspace/es_projects/Proximity Module/App-IOIO0507/src/applications/IOIOSimpleApp/src/main/res/drawable/ioio_down.png"
+    },
+    {
+        "merged": "/Users/chi/workspace/es_projects/Proximity Module/App-IOIO0507/src/applications/IOIOSimpleApp/build/intermediates/res/merged/debug/drawable/icon.png",
+        "source": "/Users/chi/workspace/es_projects/Proximity Module/App-IOIO0507/src/applications/IOIOSimpleApp/src/main/res/drawable/icon.png"
+    },
+    {
+        "merged": "/Users/chi/workspace/es_projects/Proximity Module/Proximity_sensor_with_IOIO/src/applications/Proximity_sensor_IOIO/build/intermediates/res/merged/debug/drawable/icon.png",
+        "source": "/Users/chi/workspace/es_projects/Proximity Module/Proximity_sensor_with_IOIO/src/applications/Proximity_sensor_IOIO/src/main/res/drawable/icon.png"
+    },
+    {
+        "merged": "/Users/chi/workspace/es_projects/Proximity Module/Proximity_sensor_with_IOIO/src/applications/Proximity_sensor_IOIO/build/intermediates/res/merged/debug/drawable/ioio_down.png",
+        "source": "/Users/chi/workspace/es_projects/Proximity Module/Proximity_sensor_with_IOIO/src/applications/Proximity_sensor_IOIO/src/main/res/drawable/ioio_down.png"
+    }
+]

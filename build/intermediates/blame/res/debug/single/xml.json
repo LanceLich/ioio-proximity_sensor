@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/chi/workspace/es_projects/Proximity Module/App-IOIO0507/src/applications/IOIOSimpleApp/build/intermediates/res/merged/debug/xml/device_filter.xml",
+        "source": "/Users/chi/workspace/es_projects/Proximity Module/App-IOIO0507/src/applications/IOIOSimpleApp/build/intermediates/exploded-aar/com.github.ytai.ioio/IOIOLibAndroidDevice/5.07/res/xml/device_filter.xml"
+    },
+    {
+        "merged": "/Users/chi/workspace/es_projects/Proximity Module/Proximity_sensor_with_IOIO/src/applications/Proximity_sensor_IOIO/build/intermediates/res/merged/debug/xml/accessory_filter.xml",
+        "source": "/Users/chi/workspace/es_projects/Proximity Module/Proximity_sensor_with_IOIO/src/applications/Proximity_sensor_IOIO/build/intermediates/exploded-aar/com.github.ytai.ioio/IOIOLibAndroidAccessory/5.07/res/xml/accessory_filter.xml"
+    },
+    {
+        "merged": "/Users/chi/workspace/es_projects/Proximity Module/App-IOIO0507/src/applications/IOIOSimpleApp/build/intermediates/res/merged/debug/xml/accessory_filter.xml",
+        "source": "/Users/chi/workspace/es_projects/Proximity Module/App-IOIO0507/src/applications/IOIOSimpleApp/build/intermediates/exploded-aar/com.github.ytai.ioio/IOIOLibAndroidAccessory/5.07/res/xml/accessory_filter.xml"
+    },
+    {
+        "merged": "/Users/chi/workspace/es_projects/Proximity Module/Proximity_sensor_with_IOIO/src/applications/Proximity_sensor_IOIO/build/intermediates/res/merged/debug/xml/device_filter.xml",
+        "source": "/Users/chi/workspace/es_projects/Proximity Module/Proximity_sensor_with_IOIO/src/applications/Proximity_sensor_IOIO/build/intermediates/exploded-aar/com.github.ytai.ioio/IOIOLibAndroidDevice/5.07/res/xml/device_filter.xml"
+    }
+]
