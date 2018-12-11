@@ -1,8 +1,5 @@
 package ioio.examples.simple;
 
-import ioio.lib.api.AnalogInput;
-import ioio.lib.api.DigitalOutput;
-import ioio.lib.api.IOIO;
 import ioio.lib.api.TwiMaster;
 import ioio.lib.api.exception.ConnectionLostException;
 import ioio.lib.util.BaseIOIOLooper;
@@ -13,69 +10,93 @@ import android.widget.TextView;
 import android.util.Log;
 
 public class IOIOSimpleApp extends IOIOActivity {
-	private TextView textView_1;
-    private TextView textView_2;
+	private TextView textView_1; //textview to print range data
+    public static final byte VL6180X_addr = 0x29; //default address for VL6180X
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
-
 		textView_1 = (TextView) findViewById(R.id.TextView1);
-        textView_2 = (TextView) findViewById(R.id.TextView2);
-        //textView_3 = (TextView) findViewById(R.id.TextView3);
-        //textView_4 = (TextView) findViewById(R.id.TextView4);
 	}
 
 	class Looper extends BaseIOIOLooper {
-		//private AnalogInput input_;
-		private DigitalOutput led_;
 		private TwiMaster twi_; // set up I2C
 
-
 		@Override
-		public void setup() throws ConnectionLostException {
-			led_ = ioio_.openDigitalOutput(IOIO.LED_PIN, true);
-			//input_ = ioio_.openAnalogInput(40);
+		public void setup() throws ConnectionLostException,InterruptedException {
 			twi_ = ioio_.openTwiMaster(1, TwiMaster.Rate.RATE_400KHz, false);
+
+            // load settings!
+
+            // private settings from page 24 of app note
+            write_request(twi_,(short)0x0207, (byte)0x01);
+            write_request(twi_,(short)0x0208, (byte)0x01);
+            write_request(twi_,(short)0x0096, (byte)0x00);
+            write_request(twi_,(short)0x0097, (byte)0xfd);
+            write_request(twi_,(short)0x00e3, (byte)0x00);
+            write_request(twi_,(short)0x00e4, (byte)0x04);
+            write_request(twi_,(short)0x00e5, (byte)0x02);
+            write_request(twi_,(short)0x00e6, (byte)0x01);
+            write_request(twi_,(short)0x00e7, (byte)0x03);
+            write_request(twi_,(short)0x00f5, (byte)0x02);
+            write_request(twi_,(short)0x00d9, (byte)0x05);
+            write_request(twi_,(short)0x00db, (byte)0xce);
+            write_request(twi_,(short)0x00dc, (byte)0x03);
+            write_request(twi_,(short)0x00dd, (byte)0xf8);
+            write_request(twi_,(short)0x009f, (byte)0x00);
+            write_request(twi_,(short)0x00a3, (byte)0x3c);
+            write_request(twi_,(short)0x00b7, (byte)0x00);
+            write_request(twi_,(short)0x00bb, (byte)0x3c);
+            write_request(twi_,(short)0x00b2, (byte)0x09);
+            write_request(twi_,(short)0x00ca, (byte)0x09);
+            write_request(twi_,(short)0x0198, (byte)0x01);
+            write_request(twi_,(short)0x01b0, (byte)0x17);
+            write_request(twi_,(short)0x01ad, (byte)0x00);
+            write_request(twi_,(short)0x00ff, (byte)0x05);
+            write_request(twi_,(short)0x0100, (byte)0x05);
+            write_request(twi_,(short)0x0199, (byte)0x05);
+            write_request(twi_,(short)0x01a6, (byte)0x1b);
+            write_request(twi_,(short)0x01ac, (byte)0x3e);
+            write_request(twi_,(short)0x01a7, (byte)0x1f);
+            write_request(twi_,(short)0x0030, (byte)0x00);
+
+            // Recommended : Public registers - See data sheet for more detail
+            write_request(twi_,(short)0x0011, (byte)0x10);       // Enables polling for 'New Sample ready'
+            // when measurement completes
+            write_request(twi_,(short)0x010a, (byte)0x30);       // Set the averaging sample period
+            // (compromise between lower noise and
+            // increased execution time)
+            write_request(twi_,(short)0x003f, (byte)0x46);       // Sets the light and dark gain (upper
+            // nibble). Dark gain should not be
+            // changed.
+            write_request(twi_,(short)0x0031, (byte)0xFF);       // sets the # of range measurements after
+            // which auto calibration of system is
+            // performed
+            write_request(twi_,(short)0x0040, (byte)0x63);       // Set ALS integration time to 100ms
+            write_request(twi_,(short)0x002e, (byte)0x01);       // perform a single temperature calibration
+            // of the ranging sensor
+
+            // Optional: Public registers - See data sheet for more detail
+            write_request(twi_,(short)0x001b, (byte)0x09);       // Set default ranging inter-measurement
+            // period to 100ms
+            write_request(twi_,(short)0x003e, (byte)0x31);       // Set default ALS inter-measurement period
+            // to 500ms
+            write_request(twi_,(short)0x0014, (byte)0x24);       // Configures interrupt on 'New Sample
+            // Ready threshold event'
+
 		}
 
 		@Override
 		public void loop() throws ConnectionLostException, InterruptedException {
- //code for VL6180X proximity sensor, have not finished yet.
-
-            byte[] write_request = new byte[] {0x18, 0x01};
-			byte[] empty_response = new byte[] {};
-			byte[] read_request = new byte[] {0x62};
-			byte[] check_request = new byte[] {0x4f};
-			byte[] check_status = new byte[2];
-			byte[] read_range = new byte[2];
-            byte[] clear_request = new byte[] {0x15, 0x07};
-
-			if (twi_.writeRead(0x29,false,write_request,write_request.length,empty_response,empty_response.length)) {// write 0x01 to register 0x18, a single-shot range measurement is performed
-				Thread.sleep(100);
-				if (twi_.writeRead(0x29, false, check_request, check_request.length, check_status, check_status.length)) { // read status of range measurement from register 0x4f,
-					Thread.sleep(100);
-					setNumber2(check_status[0]);
-					if (twi_.writeRead(0x29, false, read_request, read_request.length, read_range, read_range.length)) { //read range result from register 0x62
-						Log.i("LICH", "success");
-						setNumber1(read_range[1]); // print the result
-						led_.write(false);
-						Thread.sleep(1000);
-						twi_.writeRead(0x29, false, clear_request, clear_request.length, empty_response, empty_response.length); //clear the interrupt status
-					}else Log.i("LICH", " read failed");
-				}else Log.i("LICH", " check failed");
-			}else Log.i("LICH", " write failed");
-            //twi_.writeRead(0x29, false, clear_request, clear_request.length, empty_response, empty_response.length);
-            //setNumber(input_.read());
-            led_.write(true);
-            //setNumber2(0);
-			//setNumber1(0);
-            Log.i("LICH","nextLoop");
-
-            //setNumber1(input_.read()); //print the range result
-            //led_.write(false); //turn on status led
-			Thread.sleep(1000);
+            if (!(((read_request(twi_,(short)0x4d)) & 0x01) == 0)) { // check if the sensor ready for the next operation
+                write_request(twi_, (short)0x18, (byte) 0x01); // write 0x01 to register 0x18 to start a single-shot range measurement
+                if (!(((read_request(twi_,(short)0x4f)) & 0x04) == 0)) { // check if the measurement is complete
+                    setNumber1(read_request(twi_, (short) 0x62)); // read the range and print it on the screen
+                    write_request(twi_,(short)0x15,(byte)0x07); // clear the interrupt status
+                } else Log.i("LICH", "data not ready");
+            }else Log.i("LICH", "sensor read not ready");
+			Thread.sleep(50);
 		}
 
 	}
@@ -85,8 +106,8 @@ public class IOIOSimpleApp extends IOIOActivity {
 		return new Looper();
 	}
 
-	private void setNumber1(float f) {
-		final String str = String.format("%.2f",f);
+	private void setNumber1(byte b) {
+		final String str = String.valueOf(b);
 		runOnUiThread(new Runnable() {
 			@Override
 			public void run() {
@@ -95,15 +116,24 @@ public class IOIOSimpleApp extends IOIOActivity {
 		});
 	}
 
-    private void setNumber2(float f) {
-        final String str = String.format("%.2f",f);
-        runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
-                textView_2.setText(str);
-            }
-        });
+    private void write_request(TwiMaster twi, short reg, byte data) throws ConnectionLostException,InterruptedException{
+        byte[] write = new byte[] {(byte)(reg >> 8),(byte)reg,data}; // write 1 byte data to 2 bytes address of register
+        byte[] empty_response = new byte[] {};
+	    if (!twi.writeRead(VL6180X_addr, false, write, write.length,empty_response,0)) {
+            //Thread.sleep(100);
+            Log.i("LICH", " write failed");
+        }
     }
 
+    private byte read_request(TwiMaster twi, short reg) throws ConnectionLostException,InterruptedException{
+        byte[] read = new byte[] {(byte)(reg >> 8),(byte)reg}; // read 1 byte data from 2 bytes address of register
+        byte[] response = new byte[1];
+        if (!twi.writeRead(VL6180X_addr, false, read, read.length,response,1)) {
+            //Thread.sleep(100);
+            Log.i("LICH", " read failed");
+            return 0;
+        }
+        else return response[0];
+    }
 
 }

@@ -9,20 +9,6 @@
         <dex dex="/Users/chi/workspace/es_projects/Proximity Module/Proximity_sensor_with_IOIO/src/applications/Proximity_sensor_IOIO/build/intermediates/pre-dexed/debug/com.github.ytai.ioio-IOIOLibAndroidDevice-5.07_eca0cdf174c6fb6b78d7baaf6b5cf230d8f65427.jar" />
     </item>
     <item
-        jar="/Users/chi/workspace/es_projects/Proximity Module/Proximity_sensor_with_IOIO/src/applications/Proximity_sensor_IOIO/build/intermediates/exploded-aar/com.github.ytai.ioio/IOIOLibAndroidAccessory/5.07/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="2e70120231d632313bd764c5ac45da1d87c6acd7">
-        <dex dex="/Users/chi/workspace/es_projects/Proximity Module/Proximity_sensor_with_IOIO/src/applications/Proximity_sensor_IOIO/build/intermediates/pre-dexed/debug/com.github.ytai.ioio-IOIOLibAndroidAccessory-5.07_7d10297fe1b39506805f1e2498202973f02f2ff4.jar" />
-    </item>
-    <item
-        jar="/Users/chi/workspace/es_projects/Proximity Module/Proximity_sensor_with_IOIO/src/applications/Proximity_sensor_IOIO/build/intermediates/exploded-aar/com.github.ytai.ioio/IOIOLibAndroidBluetooth/5.07/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="86d0c1118daa9f0f67304864c4603d1c55092461">
-        <dex dex="/Users/chi/workspace/es_projects/Proximity Module/Proximity_sensor_with_IOIO/src/applications/Proximity_sensor_IOIO/build/intermediates/pre-dexed/debug/com.github.ytai.ioio-IOIOLibAndroidBluetooth-5.07_dee2d11eb01ce06c35bd19358f7be91d2030232e.jar" />
-    </item>
-    <item
         jar="/Users/chi/.gradle/caches/modules-2/files-2.1/com.github.ytai.ioio/IOIOLibCore/5.07/34f07b578c6819579415ddbfc6c418c6008f7ef2/IOIOLibCore-5.07.jar"
         jumboMode="false"
         revision="23.0.2"
@@ -35,6 +21,20 @@
         revision="23.0.2"
         sha1="560f73c668e2dc95526f06d9a684fad99867f01b">
         <dex dex="/Users/chi/workspace/es_projects/Proximity Module/Proximity_sensor_with_IOIO/src/applications/Proximity_sensor_IOIO/build/intermediates/pre-dexed/debug/com.github.ytai.ioio-IOIOLibAndroid-5.07_327a600d2d8d3fc8461d5ca82eda670ff7297acf.jar" />
+    </item>
+    <item
+        jar="/Users/chi/workspace/es_projects/Proximity Module/Proximity_sensor_with_IOIO/src/applications/Proximity_sensor_IOIO/build/intermediates/exploded-aar/com.github.ytai.ioio/IOIOLibAndroidBluetooth/5.07/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="86d0c1118daa9f0f67304864c4603d1c55092461">
+        <dex dex="/Users/chi/workspace/es_projects/Proximity Module/Proximity_sensor_with_IOIO/src/applications/Proximity_sensor_IOIO/build/intermediates/pre-dexed/debug/com.github.ytai.ioio-IOIOLibAndroidBluetooth-5.07_dee2d11eb01ce06c35bd19358f7be91d2030232e.jar" />
+    </item>
+    <item
+        jar="/Users/chi/workspace/es_projects/Proximity Module/Proximity_sensor_with_IOIO/src/applications/Proximity_sensor_IOIO/build/intermediates/exploded-aar/com.github.ytai.ioio/IOIOLibAndroidAccessory/5.07/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2e70120231d632313bd764c5ac45da1d87c6acd7">
+        <dex dex="/Users/chi/workspace/es_projects/Proximity Module/Proximity_sensor_with_IOIO/src/applications/Proximity_sensor_IOIO/build/intermediates/pre-dexed/debug/com.github.ytai.ioio-IOIOLibAndroidAccessory-5.07_7d10297fe1b39506805f1e2498202973f02f2ff4.jar" />
     </item>
 
 </items>

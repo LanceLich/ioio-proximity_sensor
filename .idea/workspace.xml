@@ -15,7 +15,36 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b73d0b0b-7111-45da-b0d2-12f4c0ea210b" name="Default" comment="" />
+    <list default="true" id="b73d0b0b-7111-45da-b0d2-12f4c0ea210b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/cache.properties.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/cache.properties.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/fileSnapshots.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/outputFileStates.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/outputFileStates.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/taskArtifacts.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/taskArtifacts.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/source/r/debug/ioio/examples/simple/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/source/r/debug/ioio/examples/simple/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/ioio/examples/simple/IOIOSimpleApp$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/ioio/examples/simple/IOIOSimpleApp$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/ioio/examples/simple/IOIOSimpleApp$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/ioio/examples/simple/IOIOSimpleApp$Looper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/ioio/examples/simple/IOIOSimpleApp$Looper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/ioio/examples/simple/IOIOSimpleApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/ioio/examples/simple/IOIOSimpleApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/ioio/examples/simple/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/ioio/examples/simple/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/ioio/examples/simple/R$layout.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/ioio/examples/simple/R$layout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/ioio/examples/simple/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/ioio/examples/simple/R$string.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/ioio/examples/simple/R$xml.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/ioio/examples/simple/R$xml.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/debug_167a5125c83ce9f613b0358811ef4fe2c042805b.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/debug_167a5125c83ce9f613b0358811ef4fe2c042805b.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values/values.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/symbols/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/symbols/debug/R.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ioio/examples/simple/IOIOSimpleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ioio/examples/simple/IOIOSimpleApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/strings.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,15 +69,14 @@
       <file leaf-file-name="IOIOSimpleApp.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ioio/examples/simple/IOIOSimpleApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="70" column="29" lean-forward="true" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
+            <state relative-caret-position="-1043">
+              <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
               <folding>
-                <element signature="e#3253#3254#0" expanded="true" />
-                <element signature="e#3279#3280#0" expanded="true" />
-                <element signature="e#3380#3470#0" expanded="true" />
-                <element signature="e#3469#3470#0" expanded="true" />
-                <element signature="e#3590#3725#0" expanded="true" />
-                <element signature="e#3724#3725#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#3609#3610#0" expanded="true" />
+                <element signature="e#3635#3636#0" expanded="true" />
+                <element signature="e#3736#3826#0" expanded="true" />
+                <element signature="e#3825#3826#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -60,8 +88,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+            <state relative-caret-position="211">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -69,13 +97,16 @@
       <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="45">
+              <caret line="3" column="59" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -910,20 +941,46 @@
     <option name="width" value="1400" />
     <option name="height" value="797" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
             <path>
               <item name="Proximity_sensor_IOIO" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Proximity_sensor_IOIO" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="Proximity_sensor_IOIO" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Proximity_sensor_IOIO" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="Proximity_sensor_IOIO" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Proximity_sensor_IOIO" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="simple" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Proximity_sensor_IOIO" type="1abcf292:AndroidViewProjectNode" />
               <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Proximity_sensor_IOIO" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Proximity_sensor_IOIO" type="616d4139:PackageViewModuleNode" />
             </path>
           </expand>
           <select />
@@ -1065,19 +1122,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="19" y="24" width="1400" height="797" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="Android Profiler" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Android Profiler" order="7" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Build Variants" order="2" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Preview" order="4" weight="0.3298969" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info active="true" anchor="bottom" id="Logcat" order="7" visible="true" />
-      <window_info id="Captures" order="2" weight="0.25" />
+      <window_info id="Captures" order="2" weight="0.2496318" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
@@ -1089,7 +1148,6 @@
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Preview" order="4" weight="0.3298969" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1101,18 +1159,53 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ioio/examples/simple/IOIOSimpleApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3609#3610#0" expanded="true" />
+            <element signature="e#3635#3636#0" expanded="true" />
+            <element signature="e#3736#3826#0" expanded="true" />
+            <element signature="e#3825#3826#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/main.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ioio/examples/simple/IOIOSimpleApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
           <caret line="62" column="42" lean-forward="true" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
           <folding>
-            <element signature="e#3253#3254#0" expanded="true" />
-            <element signature="e#3279#3280#0" expanded="true" />
-            <element signature="e#3380#3470#0" expanded="true" />
-            <element signature="e#3469#3470#0" expanded="true" />
-            <element signature="e#3590#3725#0" expanded="true" />
-            <element signature="e#3724#3725#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#3609#3610#0" expanded="true" />
+            <element signature="e#3635#3636#0" expanded="true" />
+            <element signature="e#3736#3826#0" expanded="true" />
+            <element signature="e#3825#3826#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1139,12 +1232,11 @@
         <state relative-caret-position="840">
           <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
           <folding>
-            <element signature="e#3253#3254#0" expanded="true" />
-            <element signature="e#3279#3280#0" expanded="true" />
-            <element signature="e#3380#3470#0" expanded="true" />
-            <element signature="e#3469#3470#0" expanded="true" />
-            <element signature="e#3590#3725#0" expanded="true" />
-            <element signature="e#3724#3725#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#3609#3610#0" expanded="true" />
+            <element signature="e#3635#3636#0" expanded="true" />
+            <element signature="e#3736#3826#0" expanded="true" />
+            <element signature="e#3825#3826#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1171,12 +1263,11 @@
         <state relative-caret-position="420">
           <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
           <folding>
-            <element signature="e#3253#3254#0" expanded="true" />
-            <element signature="e#3279#3280#0" expanded="true" />
-            <element signature="e#3380#3470#0" expanded="true" />
-            <element signature="e#3469#3470#0" expanded="true" />
-            <element signature="e#3590#3725#0" expanded="true" />
-            <element signature="e#3724#3725#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#3609#3610#0" expanded="true" />
+            <element signature="e#3635#3636#0" expanded="true" />
+            <element signature="e#3736#3826#0" expanded="true" />
+            <element signature="e#3825#3826#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1208,20 +1299,12 @@
         <state relative-caret-position="1335">
           <caret line="103" column="5" lean-forward="true" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
           <folding>
-            <element signature="e#3253#3254#0" expanded="true" />
-            <element signature="e#3279#3280#0" expanded="true" />
-            <element signature="e#3380#3470#0" expanded="true" />
-            <element signature="e#3469#3470#0" expanded="true" />
-            <element signature="e#3590#3725#0" expanded="true" />
-            <element signature="e#3724#3725#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#3609#3610#0" expanded="true" />
+            <element signature="e#3635#3636#0" expanded="true" />
+            <element signature="e#3736#3826#0" expanded="true" />
+            <element signature="e#3825#3826#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/generated/source/r/debug/ioio/examples/simple/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1261,10 +1344,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build/generated/source/r/debug/ioio/examples/simple/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="20" column="53" lean-forward="true" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="45">
+          <caret line="3" column="59" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -1273,22 +1363,21 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        <state relative-caret-position="211">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ioio/examples/simple/IOIOSimpleApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="70" column="29" lean-forward="true" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
+        <state relative-caret-position="-1043">
+          <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
           <folding>
-            <element signature="e#3253#3254#0" expanded="true" />
-            <element signature="e#3279#3280#0" expanded="true" />
-            <element signature="e#3380#3470#0" expanded="true" />
-            <element signature="e#3469#3470#0" expanded="true" />
-            <element signature="e#3590#3725#0" expanded="true" />
-            <element signature="e#3724#3725#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#3609#3610#0" expanded="true" />
+            <element signature="e#3635#3636#0" expanded="true" />
+            <element signature="e#3736#3826#0" expanded="true" />
+            <element signature="e#3825#3826#0" expanded="true" />
           </folding>
         </state>
       </provider>
